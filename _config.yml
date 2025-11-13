@@ -5,31 +5,19 @@ url: ""
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: pages-themes/midnight@v0.2.0
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
-# Collections
-collections:
-  notes:
-    output: true
-    permalink: /notes/:path/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "notes"
-    values:
-      layout: "note"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# Minima dark skin (if using minima)
+minima:
+  skin: dark
 
 # Exclude from processing
 exclude:
   - README.md
   - .git
   - .gitignore
+  - .claude/

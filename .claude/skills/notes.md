@@ -52,7 +52,7 @@ When the user asks to take a note:
 3. **Create Note with Frontmatter**:
    ```yaml
    ---
-   layout: note
+   layout: default
    title: "Note Title"
    date: YYYY-MM-DD HH:MM:SS +0000
    category: category-name
