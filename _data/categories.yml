@@ -1,0 +1,23 @@
+- name: programming
+  display: Programming
+  description: Code, software development, and technical notes
+
+- name: personal
+  display: Personal
+  description: Personal thoughts, reflections, and journal entries
+
+- name: work
+  display: Work
+  description: Work-related notes and project documentation
+
+- name: learning
+  display: Learning
+  description: Study notes, courses, and educational content
+
+- name: ideas
+  display: Ideas
+  description: Ideas, brainstorming, and creative thinking
+
+- name: reference
+  display: Reference
+  description: Quick references, cheat sheets, and documentation
